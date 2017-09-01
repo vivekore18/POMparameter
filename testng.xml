@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<parameter name="uname" value="vkverygood@gmail.com" />
+		<parameter name="url" value="https://www.gmail.com"></parameter>
+		<parameter name="upass" value="BadguY@18" />
+		<classes>
+			<class name="com.gmail.test" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

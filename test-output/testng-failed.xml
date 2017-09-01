@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="upass" value="BadguY@18"/>
+    <parameter name="uname" value="vkverygood@gmail.com"/>
+    <parameter name="url" value="https://www.gmail.com"/>
+    <classes>
+      <class name="com.gmail.test">
+        <methods>
+          <include name="method" invocation-numbers="0"/>
+          <include name="login"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.gmail.test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
